@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('./fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+  
