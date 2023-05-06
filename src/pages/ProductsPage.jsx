@@ -6,33 +6,33 @@ const products = [
     id: 1,
     name: "Product 1",
     price: 19.99,
-    image: "https://via.placeholder.com/150",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra euismod justo, a lacinia velit pharetra nec.",
+    image:
+      "https://cdn.shopify.com/s/files/1/0590/1805/1763/products/5cf60d1304beb85e68a3cc09_1200x1200.jpg?v=1631517597",
+    description: "Water",
   },
   {
     id: 2,
     name: "Product 2",
     price: 29.99,
-    image: "https://via.placeholder.com/150",
-    description:
-      "Integer id consectetur dolor, at faucibus orci. Sed euismod justo vel ipsum molestie, et eleifend nunc pharetra.",
+    image:
+      "https://hansonbeverage.com/wp-content/uploads/2017/06/5-gallon-bottle.jpg",
+    description: "Water",
   },
   {
     id: 3,
     name: "Product 3",
     price: 39.99,
-    image: "https://via.placeholder.com/150",
-    description:
-      "Aenean vitae sapien vel sapien malesuada congue eget a mi. Nullam rhoncus, orci sed fringilla tristique, nibh nibh ullamcorper enim, a auctor magna nisi vel lectus.",
+    image:
+      "https://ph-test-11.slatic.net/p/585933f985114f6e66785f61a80cb195.jpg",
+    description: "Water ni",
   },
   {
     id: 4,
     name: "Product 4",
     price: 39.99,
-    image: "https://via.placeholder.com/150",
-    description:
-      "Aenean vitae sapien vel sapien malesuada congue eget a mi. Nullam rhoncus, orci sed fringilla tristique, nibh nibh ullamcorper enim, a auctor magna nisi vel lectus.",
+    image:
+      "https://aquaflask.com/wp-content/uploads/2021/07/22oz-CHERRY-RED-L1.png",
+    description: "Dli Water",
   },
 ];
 
@@ -41,12 +41,13 @@ const ProductsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 50px;
 `;
 
 const ProductCard = styled.div`
-  width: 300px;
+  width: 200px;
   margin: 20px;
-  border: 1px solid gray;
+  border: 2px solid #29aae1;
   border-radius: 5px;
   padding: 20px;
 `;

@@ -31,6 +31,16 @@ const AppIcon = styled.img`
   margin-right: 16px;
 `;
 
+const LoginButton = styled(Link)`
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+`;
+
 const TopMenu = () => {
   return (
     <Container>
@@ -47,6 +57,7 @@ const TopMenu = () => {
           </NavLink>
         </NavLinks>
       </nav>
+      <LoginButton to="/auth/login">Login</LoginButton>
     </Container>
   );
 };

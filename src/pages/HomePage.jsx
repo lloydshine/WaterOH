@@ -41,7 +41,7 @@ const HomePage = () => {
           from order placement to timely delivery. With our commitment to
           quality, reliability and customer satisfaction, we are confident that
           you will enjoy using our Water Ordering System. Thank you for choosing
-          us as your trusted supplier of quality water!
+          us as your trusted supplier of quality water! :3
         </Description>
       </Intro>
     </>
